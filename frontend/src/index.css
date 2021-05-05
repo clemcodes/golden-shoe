@@ -1,0 +1,22 @@
+:root {
+  --primary-color:#C09947;
+}
+
+main {
+    min-height: 80vh;
+}
+
+/* Header */
+.btn__search {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn__search:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.sale {
+  color: red;
+}
