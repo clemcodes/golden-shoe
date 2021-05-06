@@ -29,8 +29,8 @@ const Header = () => {
               <FormControl type="text" placeholder="Search" className="mr-sm-2 input__search" />
               <Button variant="outline btn__search">Search</Button>
             </Form>
-            <Nav.Link href="/cart"><i class="fas fa-shopping-cart"></i> Cart</Nav.Link>
-            <Nav.Link href="/login"><i class="fas fa-user"></i> Sign In</Nav.Link>
+            <Nav.Link href="/cart"><i className="fas fa-shopping-cart"></i> Cart</Nav.Link>
+            <Nav.Link href="/login"><i className="fas fa-user"></i> Sign In</Nav.Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>
