@@ -38,8 +38,8 @@ const products = [
     category: 'Mocassins',
     price: 28.99,
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
+    rating: 3.0,
+    numReviews: 3,
   },
   {
     _id: '4',
@@ -52,8 +52,8 @@ const products = [
     category: 'Lace-up',
     price: 39.99,
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
+    rating: 5.0,
+    numReviews: 7,
   },
   {
     _id: '5',
@@ -80,7 +80,7 @@ const products = [
     category: 'Boots',
     price: 59.99,
     countInStock: 0,
-    rating: 4,
+    rating: 4.0,
     numReviews: 12,
   },
   {
@@ -95,7 +95,7 @@ const products = [
     price: 29.99,
     countInStock: 10,
     rating: 4.5,
-    numReviews: 12,
+    numReviews: 5,
   },
   {
     _id: '8',
@@ -108,8 +108,8 @@ const products = [
     category: 'Mocassins',
     price: 29.99,
     countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
+    rating: 4.0,
+    numReviews: 2,
   },
   {
     _id: '9',
@@ -122,8 +122,8 @@ const products = [
     category: 'Lace-up',
     price: 58.99,
     countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
+    rating: 4.2,
+    numReviews: 1,
   },
   {
     _id: '10',
@@ -137,7 +137,7 @@ const products = [
     price: 32.99,
     countInStock: 1,
     rating: 4.5,
-    numReviews: 12,
+    numReviews: 10,
   },
   {
     _id: '11',
@@ -150,7 +150,7 @@ const products = [
     category: 'Sneakers',
     price: 42.99,
     countInStock: 4,
-    rating: 4.5,
+    rating: 4.8,
     numReviews: 12,
   },
 ]
