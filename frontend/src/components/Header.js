@@ -1,4 +1,5 @@
 import React from 'react'
+import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Container } from 'react-bootstrap'
 
 const Header = () => {
@@ -6,7 +7,9 @@ const Header = () => {
     <header className=''>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="/" className="mr-auto"><img width="150px" src="/logo__golden-shoe.png" alt="golden shoe logo"/></Navbar.Brand>
+          <LinkContainer to='/'>
+            <Navbar.Brand className="mr-auto"><img width="150px" src="/logo__golden-shoe.png" alt="golden shoe logo"/></Navbar.Brand>
+          </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
@@ -29,8 +32,12 @@ const Header = () => {
               <FormControl type="text" placeholder="Search" className="mr-sm-2 input__search" />
               <Button variant="outline btn__search">Search</Button>
             </Form>
-            <Nav.Link href="/cart"><i className="fas fa-shopping-cart"></i> Cart</Nav.Link>
-            <Nav.Link href="/login"><i className="fas fa-user"></i> Sign In</Nav.Link>
+            <LinkContainer to='/cart'>
+              <Nav.Link><i className="fas fa-shopping-cart"></i></Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/login'>
+              <Nav.Link><i className="fas fa-user"></i></Nav.Link>
+            </LinkContainer>
           </Navbar.Collapse>
         </Container>
       </Navbar>
