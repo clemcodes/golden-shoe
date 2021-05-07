@@ -1,0 +1,31 @@
+{
+  "name": "golden-shoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server",
+    "server": "nodemon server/server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clemcodes/golden-shoe.git"
+  },
+  "author": "Clementine Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clemcodes/golden-shoe/issues"
+  },
+  "homepage": "https://github.com/clemcodes/golden-shoe#readme",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  }
+}

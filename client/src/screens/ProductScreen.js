@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Row, Col, Image, Card, Button, Accordion, Table } from 'react-bootstrap'
 import Rating from '../components/Rating'
-import products from '../products'
+import axios from 'axios'
 
 const ProductScreen = ({ match }) => {
 
-  // return the right shoe, get the url id with props.match.params 
-  const product = products.find(p => p._id === match.params.id)
+  const [product, setProduct] = useState({})
+
+  useEffect(() => {
+    const fetchProduct = async () => {
+      // get the url id with props.match.params 
+      const { data } = await axios.get(`/api/products/${match.params.id}`)
+
+      setProduct(data)
+    }
+
+    fetchProduct()
+  }, [match])
 
   return (
     <>
@@ -15,12 +25,12 @@ const ProductScreen = ({ match }) => {
 
       <Row>
         <Col md={6}>
-          <Image src={product.image1} alt={product.name} fluid />
+          <Image className='mb-4' src={product.image1} alt={product.name} fluid />
         </Col>
 
         <Col md={6}>
-          <h2>{product.name}</h2>
-          <h3 className='mt-3'>Price:£{product.price}</h3>
+          <h3 >{product.name}</h3>
+          <h3 className='mt-3'>£{product.price}</h3>
           <p className='in-stock' style={{ color: product.countInStock <= 0 && 'var(--secondary-color)'}}>{product.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}</p>
           <Rating value={product.rating} text={`${product.numReviews} reviews`} />
 

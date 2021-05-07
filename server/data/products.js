@@ -214,7 +214,7 @@ const products = [
     gender:'WOMEN\'s',
     category: 'Boots',
     price: 59.99,
-    countInStock: 0,
+    countInStock: 10,
     rating: 4.0,
     numReviews: 12,
     size: [
