@@ -12,6 +12,33 @@ const products = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '2',
@@ -26,6 +53,33 @@ const products = [
     countInStock: 7,
     rating: 4.0,
     numReviews: 8,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '3',
@@ -40,6 +94,33 @@ const products = [
     countInStock: 5,
     rating: 3.0,
     numReviews: 3,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '4',
@@ -51,9 +132,36 @@ const products = [
     gender:'WOMEN\'s',
     category: 'Lace-up',
     price: 39.99,
-    countInStock: 11,
+    countInStock: 0,
     rating: 5.0,
     numReviews: 7,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:0
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:0
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:0
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:0
+      }
+    ]
   },
   {
     _id: '5',
@@ -68,6 +176,33 @@ const products = [
     countInStock: 7,
     rating: 3.5,
     numReviews: 10,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '6',
@@ -82,6 +217,33 @@ const products = [
     countInStock: 0,
     rating: 4.0,
     numReviews: 12,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '7',
@@ -96,6 +258,33 @@ const products = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 5,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '8',
@@ -110,6 +299,33 @@ const products = [
     countInStock: 10,
     rating: 4.0,
     numReviews: 2,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '9',
@@ -124,6 +340,33 @@ const products = [
     countInStock: 10,
     rating: 4.2,
     numReviews: 1,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '10',
@@ -138,6 +381,33 @@ const products = [
     countInStock: 1,
     rating: 4.5,
     numReviews: 10,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
   {
     _id: '11',
@@ -152,6 +422,33 @@ const products = [
     countInStock: 4,
     rating: 4.8,
     numReviews: 12,
+    size: [
+      {
+        num: 3,
+        name:'xs',
+        stock:3
+      },
+      {
+        num: 4,
+        name:'s',
+        stock:0
+      },
+      {
+        num: 5,
+        name:'m',
+        stock:6
+      },
+      {
+        num: 6,
+        name:'l',
+        stock:3
+      },
+      {
+        num: 7,
+        name:'xl',
+        stock:8
+      }
+    ]
   },
 ]
 

@@ -30,7 +30,7 @@ const Header = () => {
             </Nav>
             <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2 input__search" />
-              <Button variant="outline btn__search">Search</Button>
+              <Button variant="outline golden-btn">Search</Button>
             </Form>
             <LinkContainer to='/cart'>
               <Nav.Link><i className="fas fa-shopping-cart"></i></Nav.Link>
