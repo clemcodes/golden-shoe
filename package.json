@@ -7,8 +7,7 @@
     "start": "node server/server",
     "server": "nodemon server/server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"" 
-
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   },
   "homepage": "https://github.com/clemcodes/golden-shoe#readme",
   "dependencies": {
+    "dotenv": "^9.0.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
