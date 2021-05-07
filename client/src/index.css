@@ -15,6 +15,7 @@ main {
 }
 
 /* Header */
+
 .golden-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -28,6 +29,12 @@ main {
 .sale {
   color: red;
 }
+/* home screen */
+
+.shoe-card {
+  border: none;
+}
+
 
 /* product screen */
 
