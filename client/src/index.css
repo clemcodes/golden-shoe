@@ -79,7 +79,7 @@ main {
 }
 
 .add-to-cart {
-  width: 30%;
+  width: 150px;
   border-radius: 50px;
   background-color: var(--primary-color);
   border-color: var(--primary-color);

@@ -25,12 +25,12 @@ const ProductScreen = ({ match }) => {
 
       <Row>
         <Col md={6}>
-          <Image src={product.image1} alt={product.name} fluid />
+          <Image className='mb-4' src={product.image1} alt={product.name} fluid />
         </Col>
 
         <Col md={6}>
-          <h2>{product.name}</h2>
-          <h3 className='mt-3'>Price:£{product.price}</h3>
+          <h3 >{product.name}</h3>
+          <h3 className='mt-3'>£{product.price}</h3>
           <p className='in-stock' style={{ color: product.countInStock <= 0 && 'var(--secondary-color)'}}>{product.countInStock > 0 ? 'In Stock' : 'Out Of Stock'}</p>
           <Rating value={product.rating} text={`${product.numReviews} reviews`} />
 
