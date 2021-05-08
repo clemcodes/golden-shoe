@@ -1,6 +1,6 @@
 import bcrypt from 'bcryptjs'
 
-const users = {
+const users = [
   {
     name: 'Admin User',
     email: 'admin@goldenshoe.com',
@@ -14,10 +14,10 @@ const users = {
   },
   {
     name: 'Jane Doe',
-    email: 'john@example.com',
+    email: 'jane@example.com',
     password: bcrypt.hashSync('123456', 10)
   }
   
-}
+]
 
 export default users
