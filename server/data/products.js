@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'YELLOW LEATHER MOCASSIN',
     image1: '/images/W1-1-1.jpg',
     image2: '/images/W1-1-2.jpg',
@@ -41,7 +40,6 @@ const products = [
     ]
   },
   {
-    _id: '2',
     name: 'WHITE LEATHER MOCASSIN',
     image1: '/images/W2-1-1.jpg',
     image2: '/images/W2-1-2.jpg',
@@ -82,7 +80,6 @@ const products = [
     ]
   },
   {
-    _id: '3',
     name: 'BLUE LEATHER MOCASSIN',
     image1: '/images/W3-1-1.jpg',
     image2: '/images/W3-1-2.jpg',
@@ -123,7 +120,6 @@ const products = [
     ]
   },
   {
-    _id: '4',
     name: 'VINTAGE LACE-UP',
     image1: '/images/W4-1-1.jpg',
     image2: '/images/W4-1-2.jpg',
@@ -164,7 +160,6 @@ const products = [
     ]
   },
   {
-    _id: '5',
     name: 'VINTAGE ANKLE BOOT',
     image1: '/images/W5-1-1.jpg',
     image2: '/images/W5-1-2.jpg',
@@ -205,7 +200,6 @@ const products = [
     ]
   },
   {
-    _id: '6',
     name: 'LEATHER ANKLE BOOT',
     image1: '/images/W6-1-1.jpg',
     image2: '/images/W6-1-2.jpg',
@@ -246,7 +240,6 @@ const products = [
     ]
   },
   {
-    _id: '7',
     name: 'BROWN LEATHER MOCASSIN',
     image1: '/images/M1-1-1.jpg',
     image2: '/images/M1-1-2.jpg',
@@ -287,7 +280,6 @@ const products = [
     ]
   },
   {
-    _id: '8',
     name: 'BLACK LEATHER MOCASSIN',
     image1: '/images/M2-1-1.jpg',
     image2: '/images/M2-1-2.jpg',
@@ -328,7 +320,6 @@ const products = [
     ]
   },
   {
-    _id: '9',
     name: 'BROWN LEATHER LACE-UP',
     image1: '/images/M3-1-1.jpg',
     image2: '/images/M3-1-2.jpg',
@@ -369,7 +360,6 @@ const products = [
     ]
   },
   {
-    _id: '10',
     name: 'WHITE LEATHER SNEAKERS',
     image1: '/images/M4-1-1.jpg',
     image2: '/images/M4-1-2.jpg',
@@ -410,7 +400,6 @@ const products = [
     ]
   },
   {
-    _id: '11',
     name: 'NAVY LEATHER SNEAKERS',
     image1: '/images/M5-1-1.jpg',
     image2: '/images/M5-1-2.jpg',
