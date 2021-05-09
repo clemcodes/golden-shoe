@@ -18,6 +18,11 @@ const HomeScreen = () => {
 
   return (
     <>
+      <video autoplay='autoplay' loop='loop' width='100%' muted >
+        <source src='video.mp4'></source>
+      </video>
+
+      <h4 className='text-center mt-5'>New Arrivals</h4>
 
       <Row>
         {products.map(product => (
