@@ -23,20 +23,15 @@ const Footer = () => {
           <Col className='text-center py-3' sm={12} md={4}>
             <h6 className='pb-3'>Contact Us</h6>
             <p>Mon-Sat 9AM - 5PM</p>
-            <p><i class="fas fa-phone-alt"></i> +44 0123 4567 8900</p>
-            <p><i class="fas fa-envelope"></i> support@goldenshoe.com</p>
-            <p>
-              <a href="#" className="mr-3"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-facebook mr-3"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
+            <p><i className="fas fa-phone-alt"></i> +44 0123 4567 8900</p>
+            <p><i className="fas fa-envelope"></i> support@goldenshoe.com</p>
+            <p className='social-panel'>
+              <i className="fab fa-twitter mr-3"></i>
+              <i className="fab fa-facebook mr-3"></i>
+              <i className="fab fa-instagram"></i>
             </p>
           </Col>
         </Row>
-        {/* <Row>
-          <Col className='text-center py-3'>
-            Copyright &copy; Golden Shoe
-          </Col>
-        </Row> */}
       </Container>
     </footer>
   )
