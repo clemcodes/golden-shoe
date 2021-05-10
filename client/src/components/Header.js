@@ -28,24 +28,28 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
               <NavDropdown title='Men' id='basic-nav-dropdown'>
-                <NavDropdown.Item href='#action/3.1'>
+                <NavDropdown.Item href='#action/1'>All men's</NavDropdown.Item>
+                <NavDropdown.Item href='#action/1.1'>
                   Mocassins
                 </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.2'>Lace-up</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>Sneakers</NavDropdown.Item>
+                <NavDropdown.Item href='#action/1.2'>Lace-up</NavDropdown.Item>
+                <NavDropdown.Item href='#action/1.3'>Sneakers</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item className='sale' href='#action/3.4'>
+                <NavDropdown.Item className='sale' href='#action/1.4'>
                   Sale up to 50%
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title='Women' id='basic-nav-dropdown'>
-                <NavDropdown.Item href='#action/3.1'>
+                <NavDropdown.Item href='#action/2'>
+                  All women's
+                </NavDropdown.Item>
+                <NavDropdown.Item href='#action/2.1'>
                   Mocassins
                 </NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.2'>Lace-up</NavDropdown.Item>
-                <NavDropdown.Item href='#action/3.3'>Boots</NavDropdown.Item>
+                <NavDropdown.Item href='#action/2.2'>Lace-up</NavDropdown.Item>
+                <NavDropdown.Item href='#action/2.3'>Boots</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item className='sale' href='#action/3.4'>
+                <NavDropdown.Item className='sale' href='#action/2.4'>
                   Sale up to 50%
                 </NavDropdown.Item>
               </NavDropdown>

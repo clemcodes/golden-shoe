@@ -25,7 +25,7 @@ const HomeScreen = () => {
         <div className='overlay'></div>
         <div className='showcase__text'>
           <h3>Quality & Style</h3>
-          <p>Golden Shoe, glowing step. Shop quality and style from 1962.</p>
+          <p>Golden shoe, glowing step. Shop quality and style from 1962.</p>
           <Button className='showcase__btn'>Shop Now</Button>
         </div>
       </section>
