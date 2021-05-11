@@ -153,7 +153,7 @@ const ProductScreen = ({ match }) => {
                     alt='payment methods'
                     width='150px'
                   />
-                  <h6 className='mt-3 mb-3'>7 Days Return</h6>
+                  <h6 className='mt-3 mb-3'>7 Days FREE Return</h6>
                   <p>
                     Free delivery on orders over £50
                     <br />

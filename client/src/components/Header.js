@@ -12,7 +12,7 @@ import {
 
 const Header = () => {
   return (
-    <header className=''>
+    <header>
       <Navbar bg='light' expand='lg'>
         <Container>
           <LinkContainer to='/'>
