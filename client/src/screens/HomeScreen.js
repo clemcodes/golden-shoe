@@ -1,21 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
-import Product from '../components/Product';
-import axios from 'axios';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import StoreScreen from './StoreScreen';
 
 const HomeScreen = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      const { data } = await axios.get('api/products');
-
-      setProducts(data);
-    };
-
-    fetchProducts();
-  }, []);
-
   return (
     <>
       <section className='showcase'>
@@ -26,19 +14,15 @@ const HomeScreen = () => {
         <div className='showcase__text'>
           <h3>Quality & Style</h3>
           <p>Golden shoe, glowing step. Shop quality and style from 1962.</p>
-          <Button className='showcase__btn'>Shop Now</Button>
+          <Link to='/store'>
+            <Button className='showcase__btn'>Shop Now</Button>
+          </Link>
         </div>
       </section>
 
       <h4 className='text-center mt-5'>New Arrivals</h4>
 
-      <Row>
-        {products.map((product) => (
-          <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-            <Product product={product} />
-          </Col>
-        ))}
-      </Row>
+      <StoreScreen />
     </>
   );
 };
