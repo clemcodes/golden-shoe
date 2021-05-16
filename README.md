@@ -1,12 +1,13 @@
 # Golden Shoe
-
 ## Built with
 React, CSS3, React-Bootstrap, Node.js, Express.js, MongoDB
+
+![Demo](client/public/golden-shoe__demo.gif)
 
 ## Get Started
 This project uses ES Modules in the backend, so make sure you have at least Node v14.6+ to run the project
 
-### Env Variables (if download from Github)
+### Env Variables
 Create a .env file in the root directory and add the following
 ```
 NODE_ENV = development
@@ -21,7 +22,7 @@ Run the following commands to install all the dependencies and run the prototype
 3. To run both frontend(:3000) and backend(:5000) - `npm run dev`
 
 
-### Seed Database (if download from Github)
+### Seed Database
 You can use the following commands to seed the database
 ```
 // To import data
